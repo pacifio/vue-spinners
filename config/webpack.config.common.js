@@ -2,9 +2,10 @@ var webpack = require('webpack')
 var merge = require('webpack-merge')
 var base = require('./webpack.config.base')
 var path = require('path')
-
 var outputFile = 'vue-spinners'
 var globalName = 'VueSpinners'
+
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = merge(base, {
   output: {
@@ -19,11 +20,19 @@ module.exports = merge(base, {
     // Example: 'lodash': 'lodash'
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
+    /*new webpack.optimize.UglifyJsPlugin({
       compress: {
         warnings: true,
       },
       mangle: false,
-    }),
+    }),*/
+    new UglifyJsPlugin({
+      "uglifyOptions": {
+        compress: {
+          warnings: true
+        },
+        mangle: false,
+      }
+    })
   ],
 })

@@ -1,23 +1,28 @@
-import SquareSpinner from './components/SquareSpinner.vue';
-import TileSpinner from './components/TileSpinner.vue';
-import PulseSpinner from './components/PulseSpinner.vue';
-import FoldSpinner from './components/FoldSpinner.vue';
-import CubeSpinner from './components/CubeSpinner.vue';
-import BounceSpinner from './components/BounceSpinner.vue';
+import SquareSpinner from './components/SquareSpinner.vue'
+import TileSpinner from './components/TileSpinner.vue'
+import PulseSpinner from './components/PulseSpinner.vue'
+import FoldSpinner from './components/FoldSpinner.vue'
+import CubeSpinner from './components/CubeSpinner.vue'
+import BounceSpinner from './components/BounceSpinner.vue'
 
 // Install the components
 export function install (Vue) {
-  Vue.component('square', SquareSpinner);
-  Vue.component('tile', TileSpinner);
-  Vue.component('pulse', PulseSpinner);
-  Vue.component('fold', FoldSpinner);
-  Vue.component('cube', CubeSpinner);
-  Vue.component('bounce', BounceSpinner);
+  Vue.component('square', SquareSpinner)
+  Vue.component('tile', TileSpinner)
+  Vue.component('pulse', PulseSpinner)
+  Vue.component('fold', FoldSpinner)
+  Vue.component('cube', CubeSpinner)
+  Vue.component('bounce', BounceSpinner)
 }
 
 // Expose the components
 export {
-  Test,
+  SquareSpinner,
+  TileSpinner,
+  PulseSpinner,
+  FoldSpinner,
+  CubeSpinner,
+  BounceSpinner
   /* -- Add more components here -- */
 }
 
@@ -28,7 +33,7 @@ export {
 const plugin = {
   /* eslint-disable no-undef */
   version: VERSION,
-  install,
+  install
 }
 
 export default plugin

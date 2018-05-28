@@ -6,6 +6,9 @@ var path = require('path')
 var outputFile = 'vue-spinners'
 var globalName = 'VueSpinners'
 
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+
+
 module.exports = merge(base, {
   output: {
     path: path.resolve(__dirname, '../dist'),
@@ -19,11 +22,13 @@ module.exports = merge(base, {
     // Example: 'lodash': '_'
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: true,
-      },
-      mangle: false,
-    }),
+    new UglifyJsPlugin({
+      "uglifyOptions": {
+        compress: {
+          warnings: true
+        },
+        mangle: false,
+      }
+    })
   ],
 })
