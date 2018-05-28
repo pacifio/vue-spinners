@@ -1,9 +1,9 @@
-# vue-spinners [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+# Vue Spinners [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
 [![npm](https://img.shields.io/npm/v/vue-spinners.svg) ![npm](https://img.shields.io/npm/dm/vue-spinners.svg)](https://www.npmjs.com/package/vue-spinners)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
-A vue js component library which contains multiple spinners from [SpinKit](http://tobiasahlin.com/spinkit/) . Vue components built by Adib Mohsin.
+A vue js component library which contains multiple spinners from [SpinKit](http://tobiasahlin.com/spinkit/) . Vue components built by Adib Mohsin. Please take a look at the [live example](https://pacifio.github.io/vue-spinners/docs/docs.html)
 
 ## Table of contents
 
@@ -13,8 +13,18 @@ A vue js component library which contains multiple spinners from [SpinKit](http:
 
 # Installation
 
-```
+```bash
 npm install --save vue-spinners
+```
+
+## You could use it in the browser
+```html
+<!-- Add these two line -->
+<link rel="stylesheet" href="https://unpkg.com/vue-spinners@1.0.0/dist/vue-spinners.css">
+<script src="https://unpkg.com/vue-spinners@1.0.0/dist/vue-spinners.browser.js"></script>
+
+<!-- Import vue.js -->
+<script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
 ```
 
 ## Default import
@@ -144,7 +154,7 @@ export default{
 
 # Example
 
-### All the live examples live in [here](https://pacifio.github.io/vue-spinners/docs.html)
+### All the live examples live in [here](https://pacifio.github.io/vue-spinners/docs/docs.html)
 ---
 
 # Plugin Development
