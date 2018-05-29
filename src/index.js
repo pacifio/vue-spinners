@@ -4,6 +4,7 @@ import PulseSpinner from './components/PulseSpinner.vue'
 import FoldSpinner from './components/FoldSpinner.vue'
 import CubeSpinner from './components/CubeSpinner.vue'
 import BounceSpinner from './components/BounceSpinner.vue'
+import CircleSpinner from './components/CircleSpinner.vue'
 
 // Install the components
 export function install (Vue) {
@@ -13,6 +14,7 @@ export function install (Vue) {
   Vue.component('fold', FoldSpinner)
   Vue.component('cube', CubeSpinner)
   Vue.component('bounce', BounceSpinner)
+  Vue.component('circle', CircleSpinner)
 }
 
 // Expose the components
@@ -22,7 +24,8 @@ export {
   PulseSpinner,
   FoldSpinner,
   CubeSpinner,
-  BounceSpinner
+  BounceSpinner,
+  CircleSpinner,
   /* -- Add more components here -- */
 }
 

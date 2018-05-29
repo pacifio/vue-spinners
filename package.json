@@ -1,7 +1,7 @@
 {
   "name": "vue-spinners",
   "description": "A vue js component library which contains multiple spinners from SpinKit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "pacifio",
     "email": "adibmohsin.root@gmail.com"
@@ -9,7 +9,10 @@
   "keywords": [
     "vue",
     "vuejs",
-    "plugin"
+    "plugin",
+    "spinner",
+    "components-library",
+    "vue-plugin"
   ],
   "license": "MIT",
   "main": "dist/vue-spinners.common.js",
@@ -24,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/https://github.com/pacifio/vue-spinners.git"
+    "url": "https://github.com/pacifio/vue-spinners.git"
   },
   "bugs": {
-    "url": "https://github.com/https://github.com/pacifio/vue-spinners/issues"
+    "url": "https://github.com/pacifio/vue-spinners/issues"
   },
-  "homepage": "https://github.com/https://github.com/pacifio/vue-spinners#readme",
+  "homepage": "https://github.com/pacifio/vue-spinners#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^7.2.3",
