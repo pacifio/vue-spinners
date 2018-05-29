@@ -14,7 +14,7 @@ export function install (Vue) {
   Vue.component('fold', FoldSpinner)
   Vue.component('cube', CubeSpinner)
   Vue.component('bounce', BounceSpinner)
-  Vue.component('circle', CircleSpinner)
+  Vue.component('circle-spin', CircleSpinner)
 }
 
 // Expose the components

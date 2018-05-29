@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://unpkg.com/vue-spinners@1.0.0/dist/vue-spinners.css">
+  <link rel="stylesheet" href="https://unpkg.com/vue-spinners@1.0.2/dist/vue-spinners.css">
   <link rel="stylesheet" href="./vuikit.min.css">
-  <script src="https://unpkg.com/vue-spinners@1.0.0/dist/vue-spinners.browser.js"></script>
+  <script src="https://unpkg.com/vue-spinners@1.0.2/dist/vue-spinners.browser.js"></script>
   <script src="./vuikit.min.js"></script>
   <script src="./vuikit-icons.min.js"></script>
-  <script src="https://unpkg.com/vue@2.5.16/dist/vue.min.js"></script>
+  <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
   <title>Vue spinners docs</title>
 </head>
 
@@ -21,7 +21,8 @@
       margin: 30px;
       padding: 30px;
     }
-    .main-text{
+
+    .main-text {
       text-align: center;
     }
   </style>
@@ -34,13 +35,26 @@
             <div class="main-text">
               <vk-card-title>Vue spinners</vk-card-title>
               <hr class="uk-divider-icon">
-              <p> A simple collection of spinners from spinkit . Vist <a href="https://github.com/pacifio/vue-spinners">Github link</a></p>
+              <p> A simple collection of spinners from spinkit . Vist
+                <a href="https://github.com/pacifio/vue-spinners">Github link</a>
+              </p>
               <code> npm i vue-spinners --save </code>
             </div>
             <vk-tabs>
+              <vk-tabs-item title="Circle">
+                <circle-spin></circle-spin>
+                <p>In order to use the Circle spinner please use the following code</p>
+                <script src="https://gist.github.com/pacifio/269b2ce4c49cd0edd10c129e489b13cb.js"></script>
+                <p> Availabe props are the following ... </p>
+                <vk-table :data="propsData">
+                  <vk-table-column title="Props" cell="props"></vk-table-column>
+                  <vk-table-column title="Value" cell="value"></vk-table-column>
+                  <vk-table-column title="Default" cell="default"></vk-table-column>
+                </vk-table>
+              </vk-tabs-item>
               <vk-tabs-item title="Square">
                 <square></square>
-                <p>In order to use the tile spinner please use the following code</p>
+                <p>In order to use the square spinner please use the following code</p>
                 <script src="https://gist.github.com/pacifio/1df0496f8f7f0723f5868f3485419a57.js"></script>
                 <p> Availabe props are the following ... </p>
                 <vk-table :data="propsData">
@@ -62,7 +76,7 @@
               </vk-tabs-item>
               <vk-tabs-item title="Pulse">
                 <pulse></pulse>
-                <p>In order to use the tile spinner please use the following code</p>
+                <p>In order to use the pulse spinner please use the following code</p>
                 <script src="https://gist.github.com/pacifio/6e5591f728ff1509f2ceda176442a187.js"></script>
                 <p> Availabe props are the following ... </p>
                 <vk-table :data="propsData">

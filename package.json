@@ -1,7 +1,7 @@
 {
   "name": "vue-spinners",
   "description": "A vue js component library which contains multiple spinners from SpinKit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "pacifio",
     "email": "adibmohsin.root@gmail.com"
