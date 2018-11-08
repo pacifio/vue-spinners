@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/vue-spinners.svg) ![npm](https://img.shields.io/npm/dm/vue-spinners.svg)](https://www.npmjs.com/package/vue-spinners)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
+[![MadeWithVueJs.com shield](https://madewithvuejs.com/storage/repo-shields/694-shield.svg)](https://madewithvuejs.com/p/vue-spinners/shield-link)
 
 A vue js component library which contains multiple spinners from [SpinKit](http://tobiasahlin.com/spinkit/) . Vue components built by Adib Mohsin. Please take a look at the [live example](https://pacifio.github.io/vue-spinners/docs/docs.html)
 
